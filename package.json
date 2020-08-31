@@ -1,0 +1,25 @@
+{
+  "name": "graphql-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebelok/graphql-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rebelok/graphql-playground/issues"
+  },
+  "homepage": "https://github.com/rebelok/graphql-playground#readme",
+  "dependencies": {
+    "@workpop/graphql-proxy": "^2.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql-playground-middleware-express": "^1.7.18"
+  }
+}
